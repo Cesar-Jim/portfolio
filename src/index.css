@@ -9,3 +9,14 @@
   line-height: 50px;
   color: #333333;
 }
+
+ion-icon {
+  padding: 0px 25px;
+  font-size: 2rem;
+  vertical-align: -webkit-baseline-middle;
+  color: red;
+}
+
+.nav-item {
+  padding: 0px 25px;
+}

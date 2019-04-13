@@ -11,12 +11,14 @@ import Projects from "./views/Projects";
 import Resume from "./views/Resume";
 import Contact from "./views/Contact";
 import Footer from "./components/Footer";
+import Topbar from "./components/Topbar";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header>
+          <Topbar />
           <Navbar />
         </header>
         <main>
@@ -25,6 +27,13 @@ class App extends Component {
           <Route path="/projects" component={Projects} />
           <Route path="/resume" component={Resume} />
           <Route path="/contact" component={Contact} />
+          <Route
+            path="/github"
+            component={() => {
+              window.location = "https://github.com/Cesar-Jim";
+              return null;
+            }}
+          />
         </main>
         <Footer className="footer" />
       </div>
