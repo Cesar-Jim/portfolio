@@ -27,6 +27,22 @@ const Landing = () => (
         </div>
         <div className="col-xl-1 col-lg-2" />
       </div>
+      <div className="row col-lg-8 offset-lg-2 d-none d-lg-block cardAbout">
+        <div class="text-justify">
+          <div>
+            <p class="card-title cardAboutTitle">Welcome to my site!</p>
+            <p>
+              My name is Cesar, and I am a professional Electronic Engineer
+              transitioning into the Software Industry.
+            </p>
+            <p>
+              My love for coding, a passion for design, and my willingness to
+              help others are the drivers that shape my current career goals.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="row col-lg-2" />
     </div>
 
     <div className="row d-lg-none d-xl-none">
@@ -42,6 +58,23 @@ const Landing = () => (
         </p>
         <hr />
         <p className="leadSmall">&nbsp;&nbsp;FRONT-END/UI DEVELOPER</p>
+
+        <div className="row col-xs-8 offset-xs-2 col-sm-8 offset-sm-2 col-md-8 offset-md-2 cardAboutSmall">
+          <div class="text-justify myCard">
+            <div>
+              <p>
+                My name is Cesar, and I am a professional Electronic Engineer
+                transitioning into the Software Industry.
+              </p>
+              <p>
+                My love for coding, a passion for design, and my willingness to
+                help others are the drivers that shape my current career goals.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row  col-xs-2 col-sm-2 col-md-2" />
+
         <div className="bkgBtn">
           <span>
             <img

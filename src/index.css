@@ -3,6 +3,25 @@
 
 /**********************************************************************************/
 /*                                                                                */
+/*CSS FOR NAVBAR ALL SIZES                                                        */
+/*                                                                                */
+/**********************************************************************************/
+.navbar.navbar-expand-md.navbar-light.bg-light.justify-content-center {
+  background-color: rgb(214, 214, 214) !important;
+  line-height: 1.4rem !important;
+  margin-top: 5px;
+  font-weight: 500;
+  letter-spacing: 0.08rem !important;
+}
+
+.nav-link:hover {
+  background-color: #ffffff;
+  border: 0px solid white;
+  border-radius: 5px;
+}
+
+/**********************************************************************************/
+/*                                                                                */
 /*CSS FOR LG & XL SETTINGS                                                        */
 /*                                                                                */
 /**********************************************************************************/
@@ -77,7 +96,7 @@ ion-icon {
 }
 
 .rightSideHero {
-  top: 15.5%;
+  top: 17%;
   left: 1%;
   position: absolute !important;
   z-index: 1 !important;
@@ -110,7 +129,7 @@ ion-icon {
 }
 
 .landingBtn {
-  margin: 50px 0px 0px 0px !important;
+  margin: 40px 0px 0px 0px !important;
   border: 2px solid white !important;
   background-color: rgba(255, 255, 255, 0.2) !important;
   -webkit-filter: drop-shadow(5px 5px 5px #222) !important;
@@ -127,6 +146,20 @@ ion-icon {
   filter: drop-shadow(-2px 1px 2px rgba(0, 0, 0, 0.85)) !important;
   letter-spacing: 0.1em;
   transition: filter 0.2s;
+}
+
+.cardAbout {
+  margin-top: 75px;
+  margin-bottom: 0px;
+  font-family: "Crimson Text", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.cardAboutTitle {
+  font-family: "Crimson Text", serif;
+  font-size: 2.2rem;
+  font-weight: 400;
 }
 
 /**********************************************************************************/
@@ -179,16 +212,6 @@ ion-icon {
   filter: drop-shadow(-2px 2px 1px rgba(0, 0, 0, 0.85)) !important;
 }
 
-.hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}
-
 .leadSmall {
   font-size: 0.95em !important;
   font-weight: 700 !important;
@@ -201,8 +224,23 @@ ion-icon {
   padding: 0;
 }
 
+.row.col-xs-8.offset-xs-2.col-sm-8.offset-sm-2.col-md-8.offset-md-2.cardAboutSmall {
+  margin-top: 65px;
+  margin-bottom: 0px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-family: "Crimson Text", serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.myCard {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
 .bkgBtn {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 .bkgBtnSmall {
