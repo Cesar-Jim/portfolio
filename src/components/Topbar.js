@@ -1,8 +1,5 @@
 import React from "react";
 
-// Importing Route and Link. Required for proper routing
-import { Link } from "react-router-dom";
-
 const Topbar = () => (
   <div className="d-flex justify-content-center">
     <a
@@ -10,7 +7,6 @@ const Topbar = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      {" "}
       <ion-icon name="logo-linkedin" />
     </a>
 

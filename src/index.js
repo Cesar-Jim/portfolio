@@ -7,9 +7,6 @@ import * as serviceWorker from "./serviceWorker";
 // Importing BrowserRouter for routing and linking
 import { BrowserRouter } from "react-router-dom";
 
-// Importing Bootstrap
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
 ReactDOM.render(
   <BrowserRouter>
     <App />

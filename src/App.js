@@ -3,7 +3,7 @@ import React, { Component } from "react";
 // Importing Route and Link. Required for proper routing
 import { Route } from "react-router-dom";
 
-// Importing components
+// Components Import
 import Navbar from "./components/Navbar";
 import Landing from "./views/Landing";
 import Skills from "./views/Skills";
@@ -12,6 +12,9 @@ import Resume from "./views/Resume";
 import Contact from "./views/Contact";
 import Footer from "./components/Footer";
 import Topbar from "./components/Topbar";
+
+// Libraries import
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
@@ -35,7 +38,9 @@ class App extends Component {
             }}
           />
         </main>
-        <Footer className="footer" />
+        <div>
+          <Footer className="footer" />
+        </div>
       </div>
     );
   }
