@@ -1,6 +1,9 @@
 {
-  "root": "dist/",
+  "root": "public_html/",
   "routes": {
+    "/assets/*": "/assets/",
+    "/components/*": "/components/",
+    "/views/*": "/views/",
     "/**": "index.html"
   }
 }
