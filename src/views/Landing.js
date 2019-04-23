@@ -6,10 +6,21 @@ const name = "Cesar";
 const lastName = "Jimenez";
 const lead = "FRONT-END/UI DEVELOPER";
 const next = "MY SKILLS";
+const heroImage = require("../assets/images/one-hero.jpg");
+const picture = require("../assets/images/cesar-picture-no-shadow.png");
+const nextLink = "/skills";
 
 const Landing = () => (
   <div>
-    <Hero name={name} lastName={lastName} lead={lead} next={next} />
+    <Hero
+      heroImage={heroImage}
+      picture={picture}
+      name={name}
+      lastName={lastName}
+      lead={lead}
+      next={next}
+      nextLink={nextLink}
+    />
     <Intro />
   </div>
 );
