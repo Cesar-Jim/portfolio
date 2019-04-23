@@ -7,7 +7,7 @@ const Footer = () => (
         <p>
           <small id="textProudly">PROUDLY</small>
           <small id="textMadeIn"> MADE IN </small>
-          <small id="textMexico">MEXICO</small>
+          <small id="textMexico">MEXICO.</small>
         </p>
       </div>
     </div>
