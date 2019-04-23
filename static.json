@@ -1,5 +1,5 @@
 {
-  "root": "public_html/",
+  "root": "build/",
   "routes": {
     "/assets/*": "/assets/",
     "/components/*": "/components/",
