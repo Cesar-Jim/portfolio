@@ -2,9 +2,9 @@ import React from "react";
 import Hero from "../components/Hero";
 import Intro from "../components/Intro";
 
-const name = "Cesar";
-const lastName = "Jimenez";
-const lead = "FRONT-END/UI DEVELOPER";
+const title1 = "Cesar";
+const title2 = "Jimenez";
+const lead = "Front-End Developer";
 const next = "MY SKILLS";
 const heroImage = require("../assets/images/one-hero.jpg");
 const picture = require("../assets/images/cesar-picture-no-shadow.png");
@@ -15,8 +15,8 @@ const Landing = () => (
     <Hero
       heroImage={heroImage}
       picture={picture}
-      name={name}
-      lastName={lastName}
+      title1={title1}
+      title2={title2}
       lead={lead}
       next={next}
       nextLink={nextLink}
