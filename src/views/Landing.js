@@ -1,10 +1,11 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Intro from "../components/Intro";
+import "../assets/styles/landing.css";
 
 const title1 = "Cesar";
 const title2 = "Jimenez";
-const lead = "Front-End Developer";
+const lead = "Front-End Web Developer";
 const next = "MY SKILLS";
 const heroImage = require("../assets/images/one-hero.jpg");
 const picture = require("../assets/images/cesar-picture-no-shadow.png");
