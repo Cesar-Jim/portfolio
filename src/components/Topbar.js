@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/styles/topbar.css";
 
 const Topbar = () => (
   <div className="d-flex justify-content-center">
@@ -7,12 +8,12 @@ const Topbar = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <ion-icon name="logo-linkedin" />
+      <i class="fab fa-linkedin" />
     </a>
 
     <a href="" target="_blank" rel="noopener noreferrer">
       {" "}
-      <ion-icon name="school" />
+      <i class="fas fa-graduation-cap" />
     </a>
 
     <a
@@ -20,7 +21,7 @@ const Topbar = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <ion-icon name="logo-github" />
+      <i class="fab fa-github" />
     </a>
   </div>
 );
