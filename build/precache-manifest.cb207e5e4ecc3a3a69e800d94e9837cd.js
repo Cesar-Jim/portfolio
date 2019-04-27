@@ -4,10 +4,6 @@ self.__precacheManifest = [
     "url": "/static/media/two-hero.638381ed.jpg"
   },
   {
-    "revision": "6629c59a79f6019134d5a63bd753ad72",
-    "url": "/static/media/skills.6629c59a.png"
-  },
-  {
     "revision": "5ef3e1bcbb5d7221ddf79c88cbc9b510",
     "url": "/static/media/one-hero.5ef3e1bc.jpg"
   },
@@ -20,23 +16,23 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "e63ec72b56e8e215079b",
-    "url": "/static/js/main.8734012a.chunk.js"
+    "revision": "fd6f6d259a620050e99f",
+    "url": "/static/js/main.5b59d5c1.chunk.js"
   },
   {
-    "revision": "d9ac9a5e758e055977f0",
-    "url": "/static/js/2.e5e7361b.chunk.js"
+    "revision": "3b62819ab2d9cd59b052",
+    "url": "/static/js/2.152238d4.chunk.js"
   },
   {
-    "revision": "e63ec72b56e8e215079b",
-    "url": "/static/css/main.6dc3a7e7.chunk.css"
+    "revision": "fd6f6d259a620050e99f",
+    "url": "/static/css/main.497d9f37.chunk.css"
   },
   {
-    "revision": "d9ac9a5e758e055977f0",
+    "revision": "3b62819ab2d9cd59b052",
     "url": "/static/css/2.12bba210.chunk.css"
   },
   {
-    "revision": "a25910b691dcf7e2ab103cf80ed64950",
+    "revision": "7e211f41e67e747e51f1dbfae20de139",
     "url": "/index.html"
   }
 ];
