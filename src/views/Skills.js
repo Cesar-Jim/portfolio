@@ -46,7 +46,7 @@ const iconGit = "fab fa-git-square";
 const iconPM = "fab fa-github-square";
 const iconGitHub = "fas fa-tasks";
 const descriptionPM =
-  "Whenever I start a new project, one of the most critical aspects is to set a clear set of goals and scope. For that I incorporate agile development tools like Trello or Rally. Version control tools are also a must, I use git and GitHub on a regular basis.";
+  "Whenever I start a new project, one of the most critical aspects is to set a clear set of goals and scope. For that, I incorporate agile development tools like Trello or Rally. Version control tools are also a must, I use git and GitHub on a regular basis.";
 const badgeVC = "Version Control";
 const badgePM = "Project Mgmt.";
 
