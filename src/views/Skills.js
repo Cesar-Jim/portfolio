@@ -3,11 +3,10 @@ import Hero from "../components/Hero";
 import Skill from "../components/Skill";
 import Button from "../components/Button";
 
-// Hero part configuration
+// Hero configuration
 const title1 = "Skills";
 const lead =
-  "“You don't have to be great to start, but you have to start to be great.”";
-const next = "MY WORK";
+  "“You don't have to be great to start, but you have to start to be great.” -Z. Ziglar";
 const heroImage = require("../assets/images/two-hero.jpg");
 const picture = require("../assets/images/cesar-picture-no-shadow.png");
 const nextLink = "/projects";
@@ -55,7 +54,7 @@ const iconAdobe = "fab fa-adobe";
 const iconWordPress = "fab fa-wordpress";
 const iconAnalytics = "fas fa-chart-line";
 const descriptionCS =
-  "As complementary skills, I have the capability of setting up Google and Facebook analytics. I am also proficient with WordPress and using image composition tools such as Photoshop and Illustrator. For sketching, I am familiar with Balsamiq and in the process of learning Figma.";
+  "As complementary skills, I am capable of setting up Google and Facebook analytics for a website. I am also proficient with WordPress and with image composition software such as Photoshop and Illustrator. For sketching and wireframing, I am familiar with Balsamiq and in the process of learning Figma.";
 const badgeCMS = "CMS";
 const badgeImg = "Adobe";
 const badgeAnalytics = "Analytics";
@@ -70,7 +69,6 @@ const Skills = () => (
       picture={picture}
       title1={title1}
       lead={lead}
-      next={next}
       nextLink={nextLink}
     />
     <Skill
