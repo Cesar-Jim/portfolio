@@ -11,8 +11,11 @@ const Topbar = () => (
       <i class="fab fa-linkedin" />
     </a>
 
-    <a href="" target="_blank" rel="noopener noreferrer">
-      {" "}
+    <a
+      href="https://www.dropbox.com/s/uqjlue6u2imzu8u/CesarJimenez.pdf?dl=0"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <i class="fas fa-graduation-cap" />
     </a>
 

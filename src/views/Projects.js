@@ -19,7 +19,7 @@ const liveCaptionTA = "Tribeapp";
 const ghLinkTA = "https://github.com/Cesar-Jim/tribeapp";
 const ghCaptionTA = "Github";
 const projectDescriptionTA =
-  "Tribeapp is a chat service that allows registered users to create chat rooms called 'Tipis' and / or participate in discussions on any other Tipis of their choice.";
+  "TRIBEAPP is a chat service that allows registered users to create chat rooms called 'Tipis' and / or participate in discussions on any other Tipis of their choice.";
 const projectTechnologiesTA =
   "Node.js, JavaScript (ES6), Express, Passport, Bcrypt.js, PostgreSQL, Sequelize, EJS, and Jasmine.";
 const projectBuiltTimeTA = "10 days.";
