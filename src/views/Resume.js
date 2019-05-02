@@ -4,7 +4,6 @@ import Button from "../components/Button";
 import "../assets/styles/resume.css";
 import Timeline from "../components/Timeline";
 
-import { type } from "os";
 // Hero configuration
 const title1 = "Resume";
 const lead =
@@ -31,11 +30,11 @@ const Resume = () => (
     <Timeline />
     <div className="resumeLink">
       <a
-        href="https://www.dropbox.com/s/uqjlue6u2imzu8u/CesarJimenez.pdf?dl=0"
+        href="https://www.dropbox.com/s/78gbiha6mp2153s/CesarJimenez.pdf?dl=0"
         target="_blank"
         className="downloadLink"
       >
-        Download resume
+        &nbsp;Download full resume
       </a>
     </div>
     <Button btnCaption={btnCaption} nextLink={nextLink} />
