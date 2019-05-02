@@ -22,9 +22,15 @@ const Contact = () => (
       lead={lead}
       nextLink={nextLink}
     />
-    <h2 className="email">email: cijgr@hotmail.com</h2>
+    <h2 className="email">
+      email:
+      <br />
+      cijgr@hotmail.com
+    </h2>
     <h2 className="phone" id="phone">
-      phone: +52 1 (55) 4484-9228
+      phone:
+      <br />
+      +52 1 (55) 4484-9228
     </h2>
   </div>
 );
