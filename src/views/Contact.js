@@ -37,10 +37,15 @@ const Contact = () => (
       meetings:
     </h2>
     <div className="row calendlyWidget">
-      <div
-        className="col-12 calendly-inline-widget"
-        data-url="https://calendly.com/cesarjim"
-      />
+      <div className="col-12 calendly-inline-widget">
+        <iframe
+          src="https://calendly.com/cesarjim"
+          width="100%"
+          height="700"
+          scrolling="no"
+          frameborder="0"
+        />
+      </div>
     </div>
   </div>
 );
