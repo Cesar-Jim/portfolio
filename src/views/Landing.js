@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Hero from "../components/Hero";
 import Intro from "../components/Intro";
 import Button from "../components/Button";
@@ -16,20 +16,28 @@ const nextLink = "/skills";
 // Button configuration
 const btnCaption = "My Skills";
 
-const Landing = () => (
-  <div>
-    <Hero
-      heroImage={heroImage}
-      picture={picture}
-      title1={title1}
-      title2={title2}
-      lead={lead}
-      next={next}
-      nextLink={nextLink}
-    />
-    <Intro />
-    <Button btnCaption={btnCaption} nextLink={nextLink} />
-  </div>
-);
+class Landing extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div ref="test">
+        <Hero
+          heroImage={heroImage}
+          picture={picture}
+          title1={title1}
+          title2={title2}
+          lead={lead}
+          next={next}
+          nextLink={nextLink}
+        />
+        <Intro />
+        <Button btnCaption={btnCaption} nextLink={nextLink} />
+      </div>
+    );
+  }
+}
 
 export default Landing;

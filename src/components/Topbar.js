@@ -8,7 +8,7 @@ const Topbar = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i class="fab fa-linkedin" />
+      <i className="fab fa-linkedin" />
     </a>
 
     <a
@@ -16,7 +16,7 @@ const Topbar = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i class="fas fa-graduation-cap" />
+      <i className="fas fa-graduation-cap" />
     </a>
 
     <a
@@ -24,7 +24,7 @@ const Topbar = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i class="fab fa-github" />
+      <i className="fab fa-github" />
     </a>
   </div>
 );
