@@ -32,6 +32,16 @@ const Contact = () => (
       <br />
       +52 1 (55) 4484-9228
     </h2>
+
+    <h2 className="phone" id="phone">
+      meetings:
+    </h2>
+    <div className="row calendlyWidget">
+      <div
+        className="col-12 calendly-inline-widget"
+        data-url="https://calendly.com/cesarjim"
+      />
+    </div>
   </div>
 );
 
