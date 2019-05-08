@@ -4,6 +4,11 @@ import Intro from "../components/Intro";
 import Button from "../components/Button";
 import "../assets/styles/landing.css";
 
+// Google Analytics
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-36717008-1");
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 // Hero configuration
 const title1 = "Cesar";
 const title2 = "Jimenez";

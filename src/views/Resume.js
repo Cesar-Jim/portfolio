@@ -4,6 +4,11 @@ import Button from "../components/Button";
 import "../assets/styles/resume.css";
 import Timeline from "../components/Timeline";
 
+// Google Analytics
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-36717008-1");
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 // Hero configuration
 const title1 = "Resume";
 const lead =

@@ -3,6 +3,11 @@ import Hero from "../components/Hero";
 import Button from "../components/Button";
 import Project from "../components/Project";
 
+// Google Analytics
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-36717008-1");
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 // Hero configuration
 const title1 = "Projects";
 const lead =
