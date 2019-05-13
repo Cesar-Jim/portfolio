@@ -45,7 +45,7 @@ const projectBuiltTimeUVA = "15 days.";
 // Project #3 configuration: Jams(JM)
 const projectPictureJM = require("../assets/images/jams.jpg");
 const projectNameJM = "JAMS";
-const liveLinkJM = "#";
+const liveLinkJM = "https://cesar-jimenez-jams.netlify.com/";
 const liveCaptionJM = "Jams";
 const ghLinkJM = "https://github.com/Cesar-Jim/bloc-jams-react";
 const ghCaptionJM = "Github";
