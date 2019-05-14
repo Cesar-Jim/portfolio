@@ -16,6 +16,10 @@ import Topbar from "./components/Topbar";
 // Libraries import
 import "bootstrap/dist/css/bootstrap.min.css";
 
+// Google Analytics
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-36717008-1");
+
 class App extends Component {
   render() {
     return (
